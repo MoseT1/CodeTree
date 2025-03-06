@@ -41,7 +41,7 @@ public class Main {
             int y = -2;
             // 처음에 갈 수 있는지
             boolean flag = true;
-            for (int j=0; j<2; j++) {
+            for (int j=0; j<3; j++) {
                 if (goSouth(x, y)) {
                     y = y+1;
                 } else if (goWestSouth(x, y)) {
