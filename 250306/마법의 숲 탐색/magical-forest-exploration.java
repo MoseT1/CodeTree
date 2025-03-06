@@ -83,9 +83,7 @@ public class Main {
                     map[y+1][x] = golem;
                     map[y][x-1] = golem;
                     map[y][x+1] = golem;
-                    if(y>=1) {
-                        map[y-1][x] = golem;
-                    }
+                    map[y-1][x] = golem;
 
                     // 출구의 주위에 본인 아닌 0 아닌 숫자가 있는지 확인
                     if (d == 0 ) {
