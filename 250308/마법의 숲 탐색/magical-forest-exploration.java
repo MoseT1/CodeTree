@@ -96,7 +96,7 @@ public class Main {
 
 
                     // map, exit을 참고하여 bfs로 탐색
-                    visited = new boolean[K];
+                    visited = new boolean[K+1];
 
                     queue = new LinkedList<>();
 
