@@ -307,6 +307,9 @@ public class Main {
                     int cnt = 1;
 
                     int s = map[my][mx];
+                    if(s == 0) {        // 0으로 바뀐 것도 또 0인 것들을 지우려고 하므로 이를 제외해줘야한다. 
+                        continue;
+                    }
 
                     while(!queue.isEmpty()) {
                         Point p1 = queue.poll();
