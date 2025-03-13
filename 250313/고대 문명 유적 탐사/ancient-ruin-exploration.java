@@ -142,6 +142,9 @@ public class Main {
                             queue.add(new Point(mx, my));
                             visited[my][mx] = true;
                             int s = map[my][mx];
+                            if (s == 0) {
+                                continue;
+                            }
 
                             while(!queue.isEmpty()) {
                                 Point p1 = queue.poll();
