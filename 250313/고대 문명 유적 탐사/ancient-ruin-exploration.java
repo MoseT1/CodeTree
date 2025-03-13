@@ -94,7 +94,7 @@ public class Main {
         }
 
         // 유물 조각 저장
-        int[] NextNum = new int[M];
+        int[] NextNum = new int[M+1];
         int index = 0;
 
         st = new StringTokenizer(br.readLine());
@@ -280,6 +280,7 @@ public class Main {
 
                     if(map[row][col] == 0) {
                         map[row][col] = NextNum[index++];
+
                     }
                 }
             }
