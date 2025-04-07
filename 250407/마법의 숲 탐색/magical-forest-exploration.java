@@ -181,7 +181,7 @@ public class Main {
 				// 이동
 				if(map[y+1][x-1] == 0 && map[y+2][x] == 0 && map[y+1][x+1] == 0) {
 					y += 1;
-				} else if (map[y-1][x-1] == 0 && map[y][x-2] == 0 && map[y+1][x-1] == 0 && map[y+1][x-1] == 0 && map[y+2][x-1] == 0) {
+				} else if (map[y-1][x-1] == 0 && map[y][x-2] == 0 && map[y+1][x-1] == 0 && map[y+1][x-2] == 0 && map[y+2][x-1] == 0) {
 					x -= 1;
 					y += 1;
 					exit = counterclock(exit);
